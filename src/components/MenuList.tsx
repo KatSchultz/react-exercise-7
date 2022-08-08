@@ -74,9 +74,11 @@ export default function MenuList() {
 
   return (
     <div>
-      {menuArray.map((item) => (
-        <MenuItem item={item} />
-      ))}
+      <ul>
+        {menuArray.map((item) => (
+          <MenuItem item={item} key={item.id} />
+        ))}
+      </ul>
 
       {/* {menuArray.map((item) => (
         <div key={item.id} className="menu-item">

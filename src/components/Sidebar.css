@@ -1,0 +1,5 @@
+.sidebar-content {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}

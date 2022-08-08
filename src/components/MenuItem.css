@@ -1,7 +1,8 @@
 .item-display {
+  text-align: left;
   margin-bottom: 20px;
 }
 button {
-  margin: 10px;
+  margin: 10px 10px 0px 0px;
   padding: 10px 20px;
 }
